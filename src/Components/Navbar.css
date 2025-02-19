@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App-logo {
+  height: 3rem;
+  pointer-events: none;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;         
+    width: 100%;     
+    background-color: #1c1f24; 
+    padding: 10px;   
+    z-index: 1000;   
+  }
+
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .GitHub-repo-link{
+    color: #61dafb;  
+  }
+  
+/* https://www.w3schools.com/html/html_lists_unordered.asp */
+  .nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .site-title {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 2rem;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .nav-menu li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 16px;
+    text-decoration: none;
+  }
