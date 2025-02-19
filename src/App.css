@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+/* makes the link not clickable and the cursor style an arrow */
+.inactive-link {
+  pointer-events: none;
+  cursor: default;
+}
 
 @keyframes App-logo-spin {
   from {
